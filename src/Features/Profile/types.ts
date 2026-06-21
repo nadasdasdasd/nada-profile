@@ -1,13 +1,13 @@
-export interface Project {
-  name: string
-  description: string
-  techStack: string[]
-  liveUrl?: string
-  repoUrl?: string
-  image?: string
-  challenges?: string
-  impact?: string
-}
+// export interface Project {
+//   name: string
+//   description: string
+//   techStack: string[]
+//   liveUrl?: string
+//   repoUrl?: string
+//   image?: string
+//   challenges?: string
+//   impact?: string
+// }
 
 export interface Experience {
   company: string
@@ -33,7 +33,7 @@ export interface ProfileData {
     hobbies: string[]
   }
   skills: SkillCategory[]
-  projects: Project[]
+  // projects: Project[]
   experiences: Experience[]
   contact: {
     email: string

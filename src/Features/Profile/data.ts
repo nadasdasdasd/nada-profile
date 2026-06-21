@@ -22,41 +22,41 @@ export const profileData: ProfileData = {
     },
     {
       category: 'Lainnya',
-      skills: ['n8n', 'REST API', 'Responsive Design', 'Accessibility'],
+      skills: ['REST API', 'Responsive Design', 'Accessibility'],
     },
   ],
-  projects: [
-    {
-      name: 'E-Commerce App',
-      description:
-        'Aplikasi e-commerce dengan fitur product listing, cart, checkout, dan payment integration.',
-      techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Redux Toolkit'],
-      liveUrl: 'https://example-demo.vercel.app',
-      repoUrl: 'https://github.com/nadacode/ecommerce-app',
-      challenges: 'Mengoptimasi performa rendering dengan virtualisasi list dan lazy loading.',
-      impact: 'Meningkatkan Lighthouse score dari 65 ke 92.',
-    },
-    {
-      name: 'Task Management Dashboard',
-      description:
-        'Dashboard kolaboratif untuk manage task tim dengan fitur drag-and-drop dan real-time update.',
-      techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
-      liveUrl: 'https://task-dashboard.vercel.app',
-      repoUrl: 'https://github.com/nadacode/task-dashboard',
-      challenges: 'Implementasi optimistic UI untuk real-time updates tanpa loading state.',
-      impact: 'Mengurangi waktu loading data hingga 40%.',
-    },
-    {
-      name: 'Company Profile Website',
-      description:
-        'Website company profile modern dengan animasi halus dan SEO optimal.',
-      techStack: ['React', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
-      liveUrl: 'https://company-profile.vercel.app',
-      repoUrl: 'https://github.com/nadacode/company-profile',
-      challenges: 'Membuat animasi yang smooth tanpa mengorbankan performa.',
-      impact: '100% Lighthouse score untuk Performance & Accessibility.',
-    },
-  ],
+  // projects: [
+  //   {
+  //     name: 'E-Commerce App',
+  //     description:
+  //       'Aplikasi e-commerce dengan fitur product listing, cart, checkout, dan payment integration.',
+  //     techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Redux Toolkit'],
+  //     liveUrl: 'https://example-demo.vercel.app',
+  //     repoUrl: 'https://github.com/nadacode/ecommerce-app',
+  //     challenges: 'Mengoptimasi performa rendering dengan virtualisasi list dan lazy loading.',
+  //     impact: 'Meningkatkan Lighthouse score dari 65 ke 92.',
+  //   },
+  //   {
+  //     name: 'Task Management Dashboard',
+  //     description:
+  //       'Dashboard kolaboratif untuk manage task tim dengan fitur drag-and-drop dan real-time update.',
+  //     techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
+  //     liveUrl: 'https://task-dashboard.vercel.app',
+  //     repoUrl: 'https://github.com/nadacode/task-dashboard',
+  //     challenges: 'Implementasi optimistic UI untuk real-time updates tanpa loading state.',
+  //     impact: 'Mengurangi waktu loading data hingga 40%.',
+  //   },
+  //   {
+  //     name: 'Company Profile Website',
+  //     description:
+  //       'Website company profile modern dengan animasi halus dan SEO optimal.',
+  //     techStack: ['React', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
+  //     liveUrl: 'https://company-profile.vercel.app',
+  //     repoUrl: 'https://github.com/nadacode/company-profile',
+  //     challenges: 'Membuat animasi yang smooth tanpa mengorbankan performa.',
+  //     impact: '100% Lighthouse score untuk Performance & Accessibility.',
+  //   },
+  // ],
   experiences: [
     {
       company: 'Tech Startup X',
@@ -90,14 +90,14 @@ export const profileData: ProfileData = {
     },
   ],
   contact: {
-    email: 'nada.nisrina@email.com',
-    linkedin: 'https://linkedin.com/in/nadacode',
+    email: 'nada.',
+    linkedin: 'https://www.linkedin.com/in/nada-nisrina-septiana-098247342/',
     github: 'https://github.com/nadacode',
     whatsapp: '6281234567890',
   },
   links: [
-    { label: 'GitHub', url: 'https://github.com/nadacode' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/nadacode' },
+    { label: 'GitHub', url: 'https://github.com/nadasdasdasd' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/nada-nisrina-septiana-098247342/' },
     { label: 'Download Resume', url: '#' },
   ],
 }

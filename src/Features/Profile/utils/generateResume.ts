@@ -74,15 +74,15 @@ export function generateResume(profile: ProfileData) {
   }
 
   // Projects
-  section('Projects')
-  for (const proj of profile.projects) {
-    textLine(`${proj.name}  [${proj.techStack.join(', ')}]`, 11, true)
-    textLine(proj.description, 10)
-    if (proj.liveUrl) textLine(`Live: ${proj.liveUrl}`, 9)
-    if (proj.repoUrl) textLine(`Repo: ${proj.repoUrl}`, 9)
-    if (proj.impact) textLine(`Impact: ${proj.impact}`, 9)
-    spacer()
-  }
+  // section('Projects')
+  // for (const proj of profile.projects) {
+  //   textLine(`${proj.name}  [${proj.techStack.join(', ')}]`, 11, true)
+  //   textLine(proj.description, 10)
+  //   if (proj.liveUrl) textLine(`Live: ${proj.liveUrl}`, 9)
+  //   if (proj.repoUrl) textLine(`Repo: ${proj.repoUrl}`, 9)
+  //   if (proj.impact) textLine(`Impact: ${proj.impact}`, 9)
+  //   spacer()
+  // }
 
   return doc.output('blob')
 }
