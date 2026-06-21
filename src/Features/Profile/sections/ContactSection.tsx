@@ -1,5 +1,5 @@
-import type { ProfileData } from '../types'
 import { ContactForm } from '../components/ContactForm'
+import type { ProfileData } from '../types'
 import { generateResume } from '../utils/generateResume'
 
 export function ContactSection({ profile }: { profile: ProfileData }) {
@@ -39,7 +39,7 @@ export function ContactSection({ profile }: { profile: ProfileData }) {
                 rel="noopener noreferrer"
                 className="text-indigo-600 hover:underline"
               >
-                linkedin.com/in/nadacode
+                https://www.linkedin.com/in/nada-nisrina-septiana-098247342/
               </a>
             </div>
             <div>

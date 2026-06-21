@@ -90,9 +90,9 @@ export const profileData: ProfileData = {
     },
   ],
   contact: {
-    email: 'nada.',
+    email: 'nisrinaseptiana026@gmail.com',
     linkedin: 'https://www.linkedin.com/in/nada-nisrina-septiana-098247342/',
-    github: 'https://github.com/nadacode',
+    github: 'https://github.com/nadasdasdasd',
     whatsapp: '6281234567890',
   },
   links: [
