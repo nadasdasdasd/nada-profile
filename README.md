@@ -2,6 +2,8 @@
 
 Personal portfolio website built with **React + TypeScript + Vite + Tailwind CSS**.
 
+🌐 **Live**: [https://nada-profile-mu.vercel.app/](https://nada-profile-mu.vercel.app/)
+
 ## Structure
 
 Uses **Feature-Driven Development (FDD)** — each feature is self-contained:
