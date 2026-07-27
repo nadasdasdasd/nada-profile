@@ -1,5 +1,7 @@
-import { RepoCard } from './components/RepoCard'
-import { useRepoData } from './hooks/useRepoData'
+import { Heading } from '../atoms/Heading'
+import { Skeleton } from '../atoms/Skeleton'
+import { RepoCard } from '../molecules/RepoCard'
+import { useRepoData } from '../../Widgets/GitHubRepo/hooks/useRepoData'
 
 interface GitHubRepoWidgetProps {
   username?: string
@@ -15,11 +17,9 @@ export function GitHubRepoWidget({
   if (loading) {
     return (
       <section className="rounded-xl border border-gray-200 bg-white p-6">
-        <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
-        <div className="mt-4 space-y-3">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="h-24 animate-pulse rounded-lg bg-gray-100" />
-          ))}
+        <Heading level="h3">{title}</Heading>
+        <div className="mt-4">
+          <Skeleton count={3} height="h-24" />
         </div>
       </section>
     )
@@ -27,7 +27,7 @@ export function GitHubRepoWidget({
 
   return (
     <section className="rounded-xl border border-gray-200 bg-white p-6">
-      <h2 className="text-lg font-semibold text-gray-900">{title}</h2>
+      <Heading level="h3">{title}</Heading>
       <div className="mt-4 space-y-3">
         {repos.slice(0, 3).map((repo) => (
           <RepoCard key={repo.name} repo={repo} />
