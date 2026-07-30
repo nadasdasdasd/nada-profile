@@ -2,7 +2,8 @@
 
 Personal portfolio website built with **React + TypeScript + Vite + Tailwind CSS**.
 
-🌐 **Live**: [https://nada-profile-mu.vercel.app/](https://nada-profile-mu.vercel.app/)
+🌐 **Live vercel**: [https://nada-profile-mu.vercel.app/](https://nada-profile-mu.vercel.app/)
+🌐 **Live azure**: [https://green-sky-0716fcb00.7.azurestaticapps.net/](https://green-sky-0716fcb00.7.azurestaticapps.net/)
 
 ## Structure
 
